@@ -1,7 +1,11 @@
 Hello world
 Python programming
-#game_scores
-Mike = [80,77,82,82,73,82,58,78,6,35]
-Pete = [82,57,82,79,76,72,60,72,79,80]
-John = [79,78,75,81,76,79,62,76,77,69]
-Games = np.array([Mike,Pete,John])
+#Find factorial of a number
+N=int(input('Enter no:'))
+Fac=1
+if N<0:
+    Print ("Factorial does not exist")
+else:
+    for i in range(1,N+1):
+        Fac=Fac*i
+    print ("Factorial of",N,"=",Fac)
