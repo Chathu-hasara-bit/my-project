@@ -8,4 +8,4 @@ if N<0:
 else:
     for i in range(1,N+1):
         Fac=Fac*i
-    print ("Factorial of",N,"=",Fac)
+    print ("Factorial of the",N,"is",Fac)
